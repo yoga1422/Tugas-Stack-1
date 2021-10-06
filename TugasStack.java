@@ -8,7 +8,7 @@ public class TugasStack {
 
         aga.useDelimiter("");
 
-        for (int t = 0; t < 15; t++) {
+        for (int y = 0; y < 15; y++) {
             String agoy = aga.next();
             if (agoy.equals("(")) {
                 BelajarStack.push("(");
